@@ -16,13 +16,13 @@ export const Header = () => {
                     id = "navbarNav" >
                     <ul className = "navbar-nav" >
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/movies-app">Home</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/movies-app/popular">Populares</a>
+                            <a className="nav-link" href="/popular">Populares</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/movies-app/tendencias">Top tendencias</a>
+                            <a className="nav-link" href="/tendencias">Top tendencias</a>
                         </li>
                     </ul>
                     </div>
