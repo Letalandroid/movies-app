@@ -1,6 +1,5 @@
-import React from 'react';
+import { React, useState } from 'react';
 import './poster.css';
-import { useState } from 'react';
 import { Fetching } from '../../../fetching';
 
 export const Poster = () => {
@@ -14,7 +13,7 @@ export const Poster = () => {
     return (
         <>
             {
-                cargando ? <h1>Cargando...</h1> :
+                cargando ? <h1>el que lo lea se le moja la canoa 🏳‍🌈...</h1> :
 
                 <div className='poster'>
                     <div className='poster-info'>

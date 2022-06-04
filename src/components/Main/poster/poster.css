@@ -6,10 +6,11 @@
 }
 
 .poster-info {
-    position: relative;
+    position: absolute;
+    top: 0;
     z-index: 15;
     width: 40%;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 82px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +47,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 78.6%;
+    width: calc(78% + 9px);
     object-fit: cover;
     background-color: #00003a;
 }
