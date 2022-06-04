@@ -17,11 +17,6 @@ function App() {
           <Route path='/popular' element={ <Popular /> } />
           <Route path='/tendencias' element={ <Top /> } />
           <Route path='*' element={ <Page404 /> } />
-          {/* For GitHub Pages */}
-          <Route path='/movies-app/' element={ <Home /> } />
-          <Route path='/movies-app/home' element={ <Home /> } />
-          <Route path='/movies-app/popular' element={ <Popular /> } />
-          <Route path='/movies-app/tendencias' element={ <Top /> } />
         </Routes>
       </BrowserRouter>
 
