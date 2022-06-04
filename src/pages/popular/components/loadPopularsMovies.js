@@ -24,7 +24,7 @@ export const PopularMovies = () => {
                             <img src={ `${poster}${elements.backdrop_path}` } className="card-img-top" alt='' />
                             <div className="card-body">
                                 <h3 className="card-text">{ elements.original_title }</h3>
-                                <p className="card-text">{ elements.overview }</p>
+                                <p className="card-text card-text-p">{ elements.overview }</p>
                             </div>
                         </div>
 
