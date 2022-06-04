@@ -16,7 +16,7 @@ export const TendenciaMovies = () => {
                 {
                 cargando ? <h1>el que lo lea se le moja la canoa 🏳‍🌈...</h1> :
 
-                data.results.map((elements, ) => {
+                data.results.map((elements) => {
 
                     return (
 
