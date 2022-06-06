@@ -1,53 +1,21 @@
-.poster {
-    position: relative;
-    z-index: 10;
-    height: calc(100vh - 83px);
-    background-color: #00003a;
+.card {
+    height: calc(100vh - 82.899px);
 }
 
-.poster-info {
-    position: absolute;
-    top: 0;
-    z-index: 15;
-    width: 40%;
-    height: calc(100vh - 82px);
+.card-img {
+    height: calc(100vh - 82.899px);
+}
+
+.card-img-overlay {
     display: flex;
+    top: -25px;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-color: #00003a;
-    box-shadow: 0px 0px 100px 0px #00003aaa;
+    align-items: center;
+    text-align: center;
 }
 
-.poster-info > * {
-    margin: 10px 20px;
-}
-
-.poster-info > button {
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    box-shadow: 0px 1px 1px #000;
-    color: #fff;
-    font-size: 1em;
-    background: linear-gradient(0deg, rgba(0,0,18,0.8435749299719888) 0%, rgba(0,0,58,0.9136029411764706) 50%, rgba(9,9,121,1) 100%);
-}
-
-.poster-info > button:hover {
-    outline: 2px solid #fff;
-}
-
-.poster-img > img {
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: calc(78% + 9px);
-    object-fit: cover;
-    background-color: #00003a;
+.btn {
+    width: 10em;
+    height: 3em;
 }

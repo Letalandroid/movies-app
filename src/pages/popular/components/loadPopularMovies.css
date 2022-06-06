@@ -8,8 +8,11 @@
 }
 
 .card {
-    height: 25em;
     margin-bottom: 20px;
+}
+
+.mh {
+    max-height: 25em;
 }
 
 .card-body {

@@ -6,21 +6,21 @@ export const PopularMovies = () => {
 
     const poster = 'https://image.tmdb.org/t/p/w500';
     const [url] = useState('https://api.themoviedb.org/3/movie');
-    const estado = Fetching(url, 'popular', '3609da4de9b92b18dbe1cfe4b7359c32', 'es-PE', 1);
+    const estado = Fetching(url, 'popular', process.env.REACT_APP_API_KEY, 'es-PE', 1);
     const {cargando, data} = estado;
-    cargando ? console.log('cargando...') : console.log(data.results);
+    cargando ? console.log('cargando...') : console.log('Datos cargados correctamente!');
 
     return (
         <>
             <div className='movies'>
                 {
-                cargando ? <h1>el que lo lea se le moja la canoa 🏳‍🌈...</h1> :
+                cargando ? <h1>Un momento por favor...</h1> :
 
                 data.results.map((elements) => {
 
                     return (
 
-                        <div className="card">
+                        <div className="card mh">
                             <img src={ `${poster}${elements.backdrop_path}` } className="card-img-top" alt='' />
                             <div className="card-body">
                                 <h3 className="card-text">{ elements.original_title }</h3>
