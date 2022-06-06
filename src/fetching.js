@@ -11,14 +11,14 @@ export const Fetching = (url, category, api_key, lang, pag) => {
 
       }, [url, category, api_key, lang, pag]);
 
-      const getDatos = async (url, category, api_key, lang, pag) => {
+      const getDatos = async (Url, Category, Api_key, Lang, Pag) => {
 
         setResultado({
           cargando: true,
           data: null
         });
 
-        const res = await fetch(`${url}/${category}?api_key=${api_key}&language=${lang}&page=${pag}`);
+        const res = await fetch(`${Url}/${Category}?api_key=${Api_key}&language=${Lang}&page=${Pag}`);
         const data =  await res.json();
 
         setResultado({cargando: false, data});
