@@ -1,9 +1,13 @@
-.card {
-    height: calc(100vh - 82.899px);
+.tarjeta {
+    background-image: url(https://image.tmdb.org/t/p/w500/7ucaMpXAmlIM24qZZ8uI9hCY0hm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.card-img {
-    height: calc(100vh - 82.899px);
+.text {
+    color: #fff;
+    background-color: #000a;
 }
 
 .card-img-overlay {
