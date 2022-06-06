@@ -1,4 +1,6 @@
 header {
+    position: relative;
+    z-index: 100;
     color: #fff;
     background-color: #212529;
     padding: 10px;
